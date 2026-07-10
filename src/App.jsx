@@ -464,14 +464,6 @@ function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, ease: 'easeOut' }}
         >
-          <motion.p
-            className="mb-6 inline-flex rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-cyan-200 shadow-[0_0_26px_rgba(20,215,231,0.12)] backdrop-blur-xl"
-            initial={{ opacity: 0, y: 14 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.55, delay: 0.1 }}
-          >
-            Career systems for IT candidates
-          </motion.p>
           <h1 className="hero-title max-w-6xl text-5xl font-light leading-[0.98] tracking-normal text-white sm:text-6xl md:text-7xl lg:text-8xl xl:text-[8.5rem]">
             <motion.span
               className="block"
@@ -479,7 +471,7 @@ function HeroSection() {
               animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
               transition={{ duration: 0.75, delay: 0.16, ease: 'easeOut' }}
             >
-              Accelerate your
+              Helping Candidates Land
             </motion.span>
             <motion.span
               className="block bg-gradient-to-r from-white via-cyan-100 to-zinc-500 bg-clip-text pb-2 text-transparent"
@@ -487,24 +479,24 @@ function HeroSection() {
               animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
               transition={{ duration: 0.75, delay: 0.28, ease: 'easeOut' }}
             >
-              IT career growth
+              Better IT Job Opportunities
             </motion.span>
           </h1>
           <p className="mt-7 max-w-3xl text-base leading-8 text-zinc-300 sm:text-lg lg:text-xl">
-            Corevant Systems helps candidates become job-ready through ATS resumes, technical interview preparation,
-            candidate marketing, job search guidance, and focused career training.
+            Corevant Systems provides end-to-end career support for IT candidates through ATS resumes, technical
+            interview support, candidate marketing, job search guidance, and focused training.
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
             <a
               href="/contact"
-              className="group inline-flex justify-center rounded-md bg-[#0084ff] px-7 py-4 font-bold text-white shadow-[0_0_34px_rgba(0,132,255,0.28)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#0ea5e9]"
+              className="group inline-flex justify-center rounded-md bg-[#0084ff] px-7 py-4 font-bold text-white shadow-[0_0_34px_rgba(0,132,255,0.28)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#0ea5e9] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyan-300"
             >
               Book Free Consultation
               <ArrowRight className="ml-2 h-5 w-5 transition group-hover:translate-x-1" />
             </a>
             <a
               href="/services"
-              className="inline-flex justify-center rounded-md border border-white/10 bg-white/[0.03] px-7 py-4 font-bold text-zinc-300 backdrop-blur-xl transition-all duration-300 hover:-translate-y-0.5 hover:border-cyan-300/35 hover:text-white"
+              className="inline-flex justify-center rounded-md border border-white/10 bg-white/[0.03] px-7 py-4 font-bold text-zinc-300 backdrop-blur-xl transition-all duration-300 hover:-translate-y-0.5 hover:border-cyan-300/35 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyan-300"
             >
               Explore Services
             </a>
@@ -517,10 +509,7 @@ function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.32, ease: 'easeOut' }}
         >
-          {[
-            ['500+', 'Profiles reviewed'],
-            ['300+', 'ATS resumes prepared']
-          ].map(([value, label]) => (
+          {impactStats.slice(0, 2).map(([value, label]) => (
             <div
               key={label}
               className="rounded-2xl border border-white/10 bg-black/30 p-6 text-left shadow-[0_24px_80px_rgba(0,0,0,0.24)] backdrop-blur-2xl transition duration-300 hover:-translate-y-1 hover:border-cyan-300/35 hover:bg-white/[0.06]"
@@ -529,23 +518,6 @@ function HeroSection() {
               <div className="mt-3 text-sm font-semibold uppercase tracking-[0.16em] text-zinc-400">{label}</div>
             </div>
           ))}
-          <div className="sm:col-span-2 lg:col-span-1 xl:col-span-2">
-            <div className="relative overflow-hidden rounded-2xl border border-cyan-300/18 bg-white/[0.045] p-5 shadow-[0_0_55px_rgba(20,215,231,0.12)] backdrop-blur-2xl">
-              <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-cyan-300/70 to-transparent" />
-              <div className="mb-4 flex items-center justify-between text-xs font-black uppercase tracking-[0.2em] text-cyan-200">
-                <span>Career readiness</span>
-                <span>Live path</span>
-              </div>
-              <div className="grid gap-3">
-                {['ATS resume strategy', 'Technical interview support', 'Candidate marketing guidance'].map((item) => (
-                  <div key={item} className="flex items-center gap-3 rounded-xl border border-white/8 bg-black/20 px-4 py-3">
-                    <span className="h-2.5 w-2.5 rounded-full bg-cyan-300 shadow-[0_0_16px_rgba(103,232,249,0.85)]" />
-                    <span className="text-sm font-semibold text-zinc-200">{item}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
         </motion.div>
       </div>
     </section>
