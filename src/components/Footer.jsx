@@ -7,15 +7,15 @@ export default function Footer() {
       <div className="section-shell">
         <div className="grid gap-10 md:grid-cols-[1.15fr_0.75fr_0.85fr_1fr]">
           <div>
-            <a href="#home" className="flex items-center gap-3">
-              <span className="grid h-10 w-10 place-items-center rounded-md border border-electric/40 bg-electric/10 text-sm font-extrabold text-electric">
-                TW
+            <a href="/" className="flex items-center">
+              <span className="relative block h-16 w-56 shrink-0 overflow-hidden drop-shadow-[0_0_18px_rgba(20,215,231,0.28)]">
+                <img src="/corevant-logo.png" alt="" className="h-full w-full object-contain" />
               </span>
-              <span className="text-lg font-bold text-white">Talent Warriors</span>
+              <span className="sr-only">Corevant Systems</span>
             </a>
             <p className="mt-4 max-w-sm leading-7 text-slate-400">
-              Talent Warriors connects businesses with skilled professionals through accurate recruitment, staffing,
-              onboarding support, and long-term workforce partnership.
+              Corevant Systems helps candidates build strong careers through ATS resume preparation, technical interview
+              support, candidate marketing support, and career-focused training.
             </p>
           </div>
 
@@ -34,7 +34,7 @@ export default function Footer() {
             <h3 className="mb-4 font-bold text-white">Services</h3>
             <div className="space-y-3">
               {footerServices.map((service) => (
-                <a key={service} href="#services" className="block text-sm text-slate-400 hover:text-electric">
+                <a key={service} href="/services" className="block text-sm text-slate-400 hover:text-electric">
                   {service}
                 </a>
               ))}
@@ -44,7 +44,7 @@ export default function Footer() {
           <div>
             <h3 className="mb-4 font-bold text-white">Contact</h3>
             <div className="space-y-3 text-sm text-slate-400">
-              <p>info@talentwarriors.com</p>
+              <p>info@corevantsystems.com</p>
               <p>+1 000 000 0000</p>
               <p>United States</p>
             </div>
@@ -53,7 +53,7 @@ export default function Footer() {
               {[Linkedin, Twitter, Youtube].map((Icon, index) => (
                 <a
                   key={index}
-                  href="#home"
+                  href="/"
                   aria-label="Social media"
                   className="grid h-10 w-10 place-items-center rounded-md border border-white/10 text-slate-300 transition hover:border-electric/50 hover:text-electric"
                 >
@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t border-white/10 pt-6 text-sm text-slate-500">
-          Copyright (c) 2026 Talent Warriors. All rights reserved.
+          Copyright (c) 2026 Corevant Systems. All rights reserved.
         </div>
       </div>
     </footer>

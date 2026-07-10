@@ -8,8 +8,8 @@ export default function Industries() {
       <div className="section-shell">
         <SectionHeader
           eyebrow="Industries We Serve"
-          title="Specialized hiring support across high-demand business functions."
-          description="Talent Warriors supports companies that need reliable people for technical, professional, healthcare, operational, and customer-facing teams."
+          title="Career support across high-demand professional roles."
+          description="Corevant Systems supports candidates preparing for technical, professional, operational, and customer-facing career paths."
         />
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">

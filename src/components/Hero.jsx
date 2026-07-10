@@ -15,25 +15,25 @@ export default function Hero() {
         >
           <div className="mb-6 inline-flex items-center gap-3 rounded-md border border-electric/25 bg-electric/10 px-4 py-2 text-sm font-semibold text-electric">
             <ShieldCheck size={17} />
-            Premium recruitment and staffing solutions
+            Resume, interview, and career support
           </div>
           <h1 className="text-balance text-4xl font-extrabold leading-tight text-white sm:text-5xl lg:text-7xl">
-            Empowering Companies with the Right Talent
+            Helping Candidates Land Better IT Job Opportunities
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-            Talent Warriors helps businesses hire skilled IT, non-IT, healthcare, and professional talent through
-            accurate recruitment, staffing, and workforce solutions.
+            Corevant Systems helps candidates build strong careers through ATS resume preparation, technical interview
+            support, candidate marketing support, and career-focused training.
           </p>
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
             <a
-              href="#contact"
+              href="/contact"
               className="inline-flex items-center justify-center gap-2 rounded-md bg-electric px-7 py-4 font-bold text-ink shadow-neon transition hover:-translate-y-1 hover:bg-white"
             >
-              Hire Talent
+              Book Free Consultation
               <ArrowRight size={19} />
             </a>
             <a
-              href="#contact"
+              href="/services"
               className="inline-flex items-center justify-center gap-2 rounded-md border border-white/15 bg-white/5 px-7 py-4 font-bold text-white transition hover:-translate-y-1 hover:border-electric/60 hover:text-electric"
             >
               <BriefcaseBusiness size={19} />
@@ -42,7 +42,7 @@ export default function Hero() {
           </div>
 
           <div className="mt-10 grid max-w-2xl gap-3 sm:grid-cols-3">
-            {['IT Staffing', 'Healthcare Hiring', 'Permanent Placement'].map((item) => (
+            {['ATS Resume', 'Mock Interviews', 'Candidate Marketing'].map((item) => (
               <div key={item} className="rounded-md border border-white/10 bg-white/[0.04] px-4 py-3 text-sm font-semibold text-slate-200">
                 {item}
               </div>

@@ -27,12 +27,11 @@ import {
 } from 'lucide-react';
 
 export const navLinks = [
-  { label: 'Home', href: '#home' },
-  { label: 'About Us', href: '#about' },
-  { label: 'Services', href: '#services' },
-  { label: 'Industries', href: '#industries' },
-  { label: 'Process', href: '#process' },
-  { label: 'Contact', href: '#contact' }
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/about' },
+  { label: 'Services', href: '/services' },
+  { label: 'Process', href: '/process' },
+  { label: 'Contact', href: '/contact' }
 ];
 
 export const stats = [
@@ -44,62 +43,52 @@ export const stats = [
 
 export const aboutCards = [
   {
-    title: 'Trusted Staffing Partner',
-    description: 'Reliable hiring support for teams that need capable professionals without slowing business momentum.',
+    title: 'Trusted Career Support Partner',
+    description: 'Reliable guidance for candidates who want stronger resumes, sharper interviews, and better job search visibility.',
     icon: Handshake
   },
   {
-    title: 'Fast Hiring Support',
-    description: 'Focused sourcing, screening, and shortlist delivery for urgent IT, non-IT, and healthcare roles.',
+    title: 'Focused Job Readiness',
+    description: 'Structured resume, profile, and interview support designed around each candidate target role.',
     icon: Timer
   },
   {
-    title: 'Industry-Focused Recruitment',
-    description: 'Recruiters who align skill, culture, role requirements, and workforce goals before every submission.',
+    title: 'Role-Focused Preparation',
+    description: 'Career support aligned with current IT hiring standards, recruiter expectations, and USA job market needs.',
     icon: Target
   }
 ];
 
 export const services = [
   {
-    title: 'Core Recruitment',
-    description: 'End-to-end recruitment support for professional roles, from requirement mapping to final selection.',
+    title: 'ATS Resume Preparation',
+    description: 'Professional ATS-friendly resumes tailored to target roles, skills, experience, and recruiter expectations.',
     icon: SearchCheck
   },
   {
-    title: 'IT Staffing',
-    description: 'Contract, contract-to-hire, and permanent hiring for developers, analysts, cloud, data, and support teams.',
+    title: 'Technical Interview Support',
+    description: 'Role-based interview preparation with project explanation, technical questions, and real-time scenarios.',
     icon: MonitorCog
   },
   {
-    title: 'Non-IT Staffing',
-    description: 'Dependable talent for operations, administration, finance, sales, customer support, and business teams.',
+    title: 'Candidate Marketing Support',
+    description: 'Guidance to improve profile visibility, apply strategically, and present experience professionally.',
     icon: BriefcaseBusiness
   },
   {
-    title: 'Healthcare Staffing',
-    description: 'Qualified healthcare and office support talent for clinics, care teams, billing, and patient operations.',
+    title: 'Mock Interview Preparation',
+    description: 'Practice sessions to improve communication, technical explanation, confidence, and interview performance.',
     icon: HeartPulse
   },
   {
-    title: 'Medical Billing Support',
-    description: 'Skilled billing specialists who help healthcare providers improve accuracy, claims, and workflow continuity.',
+    title: 'LinkedIn Profile Optimization',
+    description: 'Professional LinkedIn headline, summary, skills, experience, and keyword optimization for recruiter reach.',
     icon: Stethoscope
   },
   {
-    title: 'Resume Creation Services',
-    description: 'Professional resume writing and optimization for candidates preparing for stronger career opportunities.',
+    title: 'Career Training',
+    description: 'Market-focused training to improve technical skills, project understanding, tools, and job readiness.',
     icon: FileText
-  },
-  {
-    title: 'Software Development Hiring',
-    description: 'Targeted recruiting for product, engineering, QA, DevOps, and software delivery positions.',
-    icon: Code2
-  },
-  {
-    title: 'Temporary & Permanent Staffing',
-    description: 'Flexible workforce solutions for short-term coverage, project hiring, long-term roles, and growth teams.',
-    icon: UsersRound
   }
 ];
 
@@ -116,77 +105,77 @@ export const industries = [
 
 export const processSteps = [
   {
-    title: 'Understand Hiring Needs',
-    description: 'We define roles, skills, schedule, culture, budget, and success criteria before the search begins.',
+    title: 'Profile Audit',
+    description: 'We review background, skills, resume, LinkedIn profile, target role, and career goals.',
     icon: ClipboardCheck
   },
   {
-    title: 'Talent Search',
-    description: 'Our recruiters source active and passive candidates using targeted channels and role-specific criteria.',
+    title: 'Resume & Profile Setup',
+    description: 'We prepare an ATS-friendly resume and improve profile positioning for better recruiter visibility.',
     icon: SearchCheck
   },
   {
-    title: 'Screening & Selection',
-    description: 'Candidates are evaluated for skills, communication, availability, expectations, and fit.',
+    title: 'Interview Preparation',
+    description: 'Candidates practice technical questions, project explanation, scenarios, and communication.',
     icon: UserCheck
   },
   {
-    title: 'Client Interview',
-    description: 'We coordinate interviews, feedback, availability, and next steps to keep hiring moving smoothly.',
+    title: 'Candidate Marketing Guidance',
+    description: 'We guide profile visibility, application strategy, and role-focused job search presentation.',
     icon: MailCheck
   },
   {
-    title: 'Placement & Onboarding',
-    description: 'Selected candidates move through offer support, documentation, onboarding, and start-date readiness.',
+    title: 'Mock Interview Support',
+    description: 'Practice sessions help candidates build confidence and improve interview performance.',
     icon: CheckCircle2
   },
   {
-    title: 'Follow-Up Support',
-    description: 'We stay connected after placement to support satisfaction, retention, and workforce success.',
+    title: 'Career Growth Support',
+    description: 'We support profile updates, feedback, training, and continued job readiness.',
     icon: ShieldCheck
   }
 ];
 
 export const strengths = [
-  { title: 'Skilled recruiters', description: 'Experienced recruiters who understand role details, candidate quality, and hiring urgency.', icon: BadgeCheck },
-  { title: 'Fast candidate sourcing', description: 'Search workflows built to identify qualified talent quickly without lowering standards.', icon: Timer },
-  { title: 'IT and non-IT hiring support', description: 'Coverage across technical, operational, administrative, healthcare, and professional roles.', icon: Network },
-  { title: 'Customized staffing solutions', description: 'Flexible hiring models shaped around your timeline, team structure, and business goals.', icon: Target },
-  { title: 'Smooth onboarding', description: 'Coordination support that helps selected candidates move confidently into the role.', icon: ClipboardCheck },
-  { title: 'Long-term client support', description: 'Partnership beyond placement with follow-up, feedback, and workforce planning support.', icon: Handshake }
+  { title: 'ATS-focused resume strategy', description: 'Clean formatting, role keywords, and recruiter-friendly profile presentation.', icon: BadgeCheck },
+  { title: 'Role-based interview guidance', description: 'Technical preparation shaped around target roles, tools, projects, and scenarios.', icon: Timer },
+  { title: 'Real-time project explanation', description: 'Support for explaining project work, responsibilities, tools, and business impact.', icon: Network },
+  { title: 'Personalized candidate marketing', description: 'Guidance to improve visibility, applications, and job search positioning.', icon: Target },
+  { title: 'LinkedIn optimization', description: 'Professional headline, summary, skills, and keyword improvements for recruiter reach.', icon: ClipboardCheck },
+  { title: 'Market-ready career training', description: 'Training focused on job readiness, technical confidence, and interview performance.', icon: Handshake }
 ];
 
 export const testimonials = [
   {
-    quote: 'Talent Warriors understood our technical requirements quickly and delivered candidates who were prepared, qualified, and aligned with our team culture.',
+    quote: 'Corevant Systems helped me rewrite my resume and explain my project work with much more confidence during interviews.',
     name: 'Jordan Ellis',
-    role: 'Director of Engineering',
-    company: 'CloudBridge Systems'
+    role: 'Software Engineer',
+    company: 'Candidate'
   },
   {
-    quote: 'Their team helped us staff urgent operations roles without sacrificing quality. The communication was clear from intake through onboarding.',
+    quote: 'The LinkedIn and candidate marketing and job search guidance made my profile stronger and easier for recruiters to understand.',
     name: 'Maya Patel',
-    role: 'People Operations Lead',
-    company: 'Northstar Retail Group'
+    role: 'Business Analyst',
+    company: 'Candidate'
   },
   {
-    quote: 'We needed healthcare billing support on a tight timeline. Talent Warriors brought us dependable professionals and stayed engaged after placement.',
+    quote: 'The mock interview support helped me answer technical questions clearly and improve my communication.',
     name: 'Anthony Brooks',
-    role: 'Practice Administrator',
-    company: 'Riverbend Health'
+    role: 'Data Analyst',
+    company: 'Candidate'
   }
 ];
 
 export const footerServices = [
-  'Core Recruitment',
-  'IT Staffing',
-  'Healthcare Staffing',
-  'Temporary & Permanent Staffing'
+  'ATS Resume Preparation',
+  'Technical Interview Support',
+  'Candidate Marketing Support',
+  'Career Training'
 ];
 
 export const visualMetrics = [
-  { label: 'Verified shortlists', value: '72h', icon: SearchCheck },
-  { label: 'Role-fit screening', value: '5x', icon: UserCheck },
-  { label: 'Hiring visibility', value: 'Live', icon: Sparkles },
-  { label: 'Placement support', value: '360', icon: Building2 }
+  { label: 'Resume strategy', value: 'ATS', icon: SearchCheck },
+  { label: 'Interview practice', value: '1:1', icon: UserCheck },
+  { label: 'Profile visibility', value: 'Live', icon: Sparkles },
+  { label: 'Career support', value: '360', icon: Building2 }
 ];

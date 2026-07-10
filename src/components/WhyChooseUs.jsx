@@ -9,7 +9,7 @@ export default function WhyChooseUs() {
         <SectionHeader
           eyebrow="Why Choose Us"
           title="Staffing support built for speed, accuracy, and long-term fit."
-          description="Talent Warriors combines recruiter judgment, structured screening, and responsive coordination so companies can hire with confidence."
+          description="Corevant Systems combines ATS resume strategy, interview preparation, candidate marketing and job search guidance, and career-focused training so candidates can move forward with confidence."
         />
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

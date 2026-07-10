@@ -10,9 +10,9 @@ export default function InteractiveVisual() {
         <div>
           <SectionHeader
             align="left"
-            eyebrow="Recruitment Network"
-            title="A connected hiring engine for clients, recruiters, and qualified candidates."
-            description="Our workflow connects requirement intake, targeted sourcing, screening, interview coordination, and onboarding support into one smooth hiring experience."
+            eyebrow="Career Support Network"
+            title="A connected support system for resumes, interviews, profiles, and candidate marketing."
+            description="Our workflow connects profile review, ATS resume preparation, interview support, LinkedIn optimization, and candidate marketing and job search guidance into one smooth career support experience."
           />
           <div className="grid gap-4 sm:grid-cols-2">
             {visualMetrics.map((metric, index) => {

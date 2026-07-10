@@ -9,8 +9,8 @@ export default function Testimonials() {
       <div className="section-shell">
         <SectionHeader
           eyebrow="Testimonials"
-          title="Trusted by teams that need hiring support they can count on."
-          description="Client stories are represented with original sample testimonials that reflect the professional, responsive service Talent Warriors provides."
+          title="Trusted by candidates preparing for stronger career opportunities."
+          description="Client stories are represented with original sample testimonials that reflect the professional, responsive service Corevant Systems provides."
         />
 
         <div className="grid gap-5 lg:grid-cols-3">

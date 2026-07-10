@@ -8,8 +8,8 @@ export default function Services() {
       <div className="section-shell">
         <SectionHeader
           eyebrow="Services"
-          title="Recruitment and workforce solutions for growing teams."
-          description="From professional recruitment to staffing support, our services help companies move from open roles to confident hires with less friction."
+          title="Career support services for IT job seekers."
+          description="From ATS resumes to interview preparation, LinkedIn optimization, candidate marketing support, and training, our services help candidates become job-ready."
         />
 
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">

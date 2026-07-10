@@ -8,8 +8,8 @@ export default function About() {
       <div className="section-shell">
         <SectionHeader
           eyebrow="Who We Are"
-          title="A modern staffing partner built for precise, dependable hiring."
-          description="Talent Warriors is a modern recruitment and staffing company focused on connecting businesses with qualified professionals. We support companies with reliable hiring solutions, smooth onboarding, and long-term workforce success."
+          title="A modern career support partner built for IT candidates."
+          description="Corevant Systems helps candidates build strong careers through ATS resume preparation, technical interview support, candidate marketing support, and career-focused training."
         />
 
         <div className="grid gap-5 md:grid-cols-3">

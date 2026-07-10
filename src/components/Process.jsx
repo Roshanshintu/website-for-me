@@ -7,8 +7,8 @@ export default function Process() {
     <section id="process" className="bg-black/20 py-24">
       <div className="section-shell">
         <SectionHeader
-          eyebrow="Recruitment Process"
-          title="A clear path from hiring need to successful onboarding."
+          eyebrow="Career Support Process"
+          title="A clear path from profile review to stronger job readiness."
           description="Our process is structured, responsive, and transparent so clients always know what is moving, what needs attention, and what comes next."
         />
 

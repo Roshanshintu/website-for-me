@@ -8,9 +8,9 @@ export default function Stats() {
     <section className="bg-black/20 py-24">
       <div className="section-shell">
         <SectionHeader
-          eyebrow="Talent Impact"
+          eyebrow="Career Impact"
           title="Recruiting momentum measured in real outcomes."
-          description="Our staffing work is built around consistent communication, qualified shortlists, and dependable placement support."
+          description="Our career support is built around practical resume strategy, interview confidence, profile visibility, and job readiness."
         />
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
